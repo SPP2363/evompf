@@ -1,0 +1,68 @@
+{
+    scatter:
+    {
+        draw: false
+        test: false
+        train: false
+        depth_name: 3
+        xlabel: HOMO-LUMO gap
+        ylabel: predicted HOMO-LUMO gap
+        unit: eV
+        optional_settings: 
+        {
+            set_ax_manually: false
+            xaxis_lowlim: 1
+            xaxis_uplim: 10
+            yaxis_lowlim: 2
+            yaxis_uplim: 9
+            fontsize: 11
+        }
+    }
+    epoch_stats:
+    {
+        draw: true
+        metrics: ["Evo-Epoch", "average", "confidence_upp", "confidence_low"]
+        xlabel: Epoch
+        ylabel: R$^2$
+        optional_settings: 
+        {
+            set_ax_manually: false
+            xaxis_lowlim: 0
+            xaxis_uplim: 52
+            yaxis_lowlim: 0.35
+            yaxis_uplim: 1
+            bars: false
+            fontsize: 11
+        }
+    }
+    epoch:
+    {
+        draw: true
+        xlabel: Epoch
+        ylabel: R$^2$
+        optional_settings: 
+        {
+            set_ax_manually: false
+            xaxis_lowlim: 0
+            xaxis_uplim: 52
+            yaxis_lowlim: 0 
+            yaxis_uplim: 1
+            fontsize: 11
+        }
+    }
+    bar_per_set:
+    {
+        draw: true
+        error: true
+        settings: ["feature_typ", "fp_size", "newgen_rate"]
+        optional_settings: 
+        {
+            color: "royalblue"
+            width_bar: 0.3
+            set_ax_manually: true
+            yaxis_lowlim: 0.8
+            yaxis_uplim: 0.9
+            fontsize: 11
+        }
+    }
+}

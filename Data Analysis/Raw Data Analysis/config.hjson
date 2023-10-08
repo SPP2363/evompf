@@ -1,0 +1,40 @@
+{
+path: C:\Users\phili\Desktop\Programme\EvoFPExtractor\Data
+
+save: true
+test: true
+train: true
+evo: true
+sort: true
+stats: true
+plots: true
+check_missing: true
+check_similarty: true
+sort_evolast: true
+ignore_test_range: false
+metric: 
+	[
+	#mean_absolute_error
+	r2_score
+	#balanced_accuracy_score
+	#specificity_score
+	#recall_score
+	#f1_score
+	#roc_auc_score
+	#precision_score
+	#accuracy_score
+	]
+stat_metrics: 
+	{
+	average:{}
+	median:{}
+	highest:{}
+	lowest:{}
+	std_deviation:{}
+	varriance:{}
+	confidence:
+		{
+		percentage:0.95
+		}
+	}
+}
