@@ -1,6 +1,6 @@
 # EasyChem-ML
 
-This Version is a SNAPSHOT of the EasyChemML Github sourcecode (https://github.com/mkueh/EasyChemML)(17.10.2023) that includes the EvoFP-Encoder for using the EvoMFP. 
+This Version is a SNAPSHOT of the EasyChemML Github sourcecode (https://github.com/mkueh/EasyChemML) (17.10.2023) that includes the EvoFP-Encoder for using the EvoMFP. 
 
 EasyChem-ML is a modular structure-based machine learning tool for property, reactivity and structure prediction in (organic) chemistry, which should be easily adoptable to different problem sets.
 
