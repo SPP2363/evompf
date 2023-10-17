@@ -6,9 +6,7 @@ EasyChem-ML is a modular structure-based machine learning tool for property, rea
 
 # Current Status
 
-EasyChem-ML is developed and maintained as a PhD project by Marius Kühnemund. The whole project is neither finished nor complete. Frequent modifications can not be excluded ;) ... that's how it is in PhD.
-
-
+EasyChem-ML is developed and maintained as a PhD project by Marius Kühnemund
 
 **In addition, not all modules are public available, as these were/are used for projects that have not been published yet**
 
