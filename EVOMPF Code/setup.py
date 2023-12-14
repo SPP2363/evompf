@@ -138,7 +138,7 @@ if os_system_name == 'Windows':
         "pandas",
         "joblib",
         "catboost",
-        "sklearn",
+        "cikit-learn",
         "Cython==0.29.23",
         "bitarray",
         "sortedcontainers",
@@ -175,7 +175,7 @@ else:
         "pandas",
         "joblib",
         "catboost",
-        "sklearn",
+        "cikit-learn",
         "Cython==0.29.23",
         "bitarray",
         "sortedcontainers",
@@ -215,6 +215,6 @@ setuptools.setup(
     ],
     include_package_data=True,
     packages=setuptools.find_packages(),
-    python_requires=">=3.9.7",
+    python_requires='>=3.9, <3.10'
     install_requires=install_requires
 )
